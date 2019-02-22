@@ -25,7 +25,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-Sammple
 
 ``` fsharp
 open System.Text.RegularExpressions
