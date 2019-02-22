@@ -25,7 +25,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-``` f#
+``` fsharp
 open System.Text.RegularExpressions
 let split (by:string) (str:string)  = 
     let rec split (m:Match) = [
