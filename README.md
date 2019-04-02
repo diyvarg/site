@@ -3,7 +3,7 @@ posts
 <br/>
 <div>
   {% for a in site.posts %}
-      <a href='{{ a.url }}'>{{ a.title }}</a>
+      <a href='{{site.baseurl}}/{{ a.url }}'>{{ a.title }}</a>
       <br/>
   {% endfor %}
 </div>
@@ -13,8 +13,8 @@ posts
 <hr/>
 
 
-## url: {{ site.url }}
-## baseurl:  {{ site.baseurl }}
+- url: {{ site.url }}
+- baseurl:  {{ site.baseurl }}
 
 <hr/>
 
