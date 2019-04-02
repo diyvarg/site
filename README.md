@@ -12,7 +12,7 @@ posts
 
 <hr/>
 
-
+- [/subfolder/index.md](/subfolder/index.md)
 - url: {{ site.url }}
 - baseurl:  {{ site.baseurl }}
 
