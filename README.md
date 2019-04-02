@@ -29,7 +29,7 @@ posts
 
 <script>
   var $form = $('form#test-form'),
-    url = 'https://script.google.com/macros/s/AKfycbynmmPqfUK-FynNLLK-_jr2guCEi47PaKe9Z0MWd7m9FlFsSiKg/exec'
+    url = 'https://script.google.com/macros/s/AKfycbwOV4yEWaMYNcJoLuGmkT3sqEFJ9IZDPSnebjZkZ-Tl/exec'
 
 //alert(1);
 
