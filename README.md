@@ -15,6 +15,7 @@ posts
 - [/subfolder/index.md](/subfolder/index.md)
 - url: {{ site.url }}
 - baseurl:  {{ site.baseurl }}
+- markdown: {{ site.markdown }}
 
 <hr/>
 
