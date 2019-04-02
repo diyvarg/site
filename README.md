@@ -34,7 +34,7 @@ posts
 alert(1);
 
 $('#submit-form').on('click', function(e) {
-  alert(2);
+  alert(2 + " data: " + $form.serializeObject());
   try {
   e.preventDefault();
   var jqxhr = $.ajax({
@@ -45,8 +45,10 @@ $('#submit-form').on('click', function(e) {
   });
   } catch(e) { alert("error: " + e); } 
   
-  jqxhr.done(function () { alert("done"); })
-       .fail (function (jqXHR, textStatus) {    alert( "Request failed: " + textStatus );        });
+  jqxhr.done(function( msg ) {
+    alert( "Data Saved: " + msg );
+  })
+  .fail (function (jqXHR, textStatus) {    alert( "Request failed: " + textStatus );        });
 })
 </script> 
 
