@@ -43,7 +43,9 @@ $('#submit-form').on('click', function(e) {
     method: "GET",
     dataType: "json",
     data: $form.serializeObject()
-  }).fail (function( jqXHR, textStatus )) {    alert( "Request failed: " + textStatus );        });
+  })
+  .done(function () { alert("done"); })
+  .fail (function (jqXHR, textStatus) {    alert( "Request failed: " + textStatus );        });
 })
 </script> 
 
