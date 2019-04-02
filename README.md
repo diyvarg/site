@@ -29,9 +29,9 @@ posts
 
 <script>
   var $form = $('form#test-form'),
-    url = 'https://script.google.com/macros/s/AKfycbwOV4yEWaMYNcJoLuGmkT3sqEFJ9IZDPSnebjZkZ-Tl/exec'
+    url = 'https://script.google.com/macros/s/AKfycbynmmPqfUK-FynNLLK-_jr2guCEi47PaKe9Z0MWd7m9FlFsSiKg/exec'
 
-//alert(1);
+//alert(1);        
 
 $('#submit-form').on('click', function(e) {
   alert(2 + " data: " + JSON.stringify($form.serializeObject()));
