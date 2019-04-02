@@ -8,6 +8,22 @@ posts
   {% endfor %}
 </div>
 
+<hr />
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<form id="test-form">
+  
+  <div>
+    <label>Field 1</label>
+    <input type="text" name="form_field_1" placeholder="Field 1"/>
+  </div>
+  <div>
+    <button type="submit"id="submit-form">Submit</button>
+  </div>
+
+</form>
+
 
 
 <hr/>
