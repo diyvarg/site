@@ -11,7 +11,6 @@ posts
 <hr />
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://raw.githubusercontent.com/macek/jquery-serialize-object/master/dist/jquery.serialize-object.min.js"></script>
 
 
 
@@ -50,6 +49,8 @@ $('#submit-form').on('click', function(e) {
        .fail (function (jqXHR, textStatus) {    alert( "Request failed: " + textStatus );        });
 })
 </script> 
+
+<script src="https://raw.githubusercontent.com/macek/jquery-serialize-object/master/dist/jquery.serialize-object.min.js"></script>
 
 
 <hr/>
