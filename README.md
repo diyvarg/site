@@ -16,6 +16,7 @@ posts
 - url: {{ site.url }}
 - baseurl:  {{ site.baseurl }}
 - markdown: {{ site.markdown }}
+- highlighter: {{ site.highlighter }}
 
 <hr/>
 
