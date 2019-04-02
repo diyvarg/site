@@ -22,7 +22,7 @@ posts
     <input type="text" name="form_field_1" placeholder="Field 1"/>
   </div>
   <div>
-    <button type="submit"id="submit-form">Submit</button>
+    <button type="submit" id="submit-form">Submit</button>
   </div>
 
 </form>
