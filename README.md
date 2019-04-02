@@ -55,6 +55,7 @@ $('#submit-form').on('click', function(e) {
 <!-- <script src="https://raw.githubusercontent.com/macek/jquery-serialize-object/master/dist/jquery.serialize-object.min.js"></script -->
 
 <script>
+  // https://stackoverflow.com/a/5199982
   
   jQuery.fn.serializeObject = function() {
   var arrayData, objectData;
