@@ -12,6 +12,9 @@ posts
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
+
+
+
 <form id="test-form">
   
   <div>
@@ -24,6 +27,23 @@ posts
 
 </form>
 
+
+<script>
+  var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/abcdefghijklmnopqrstuvwxyz1234567890/exec'
+
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+  );
+})
+</script> 
 
 
 <hr/>
