@@ -48,7 +48,7 @@ $('#submit-form').on('click', function(e) {
   jqxhr.done(function( msg ) {
     alert( "Data Saved: " + JSON.stringify(msg) );
   })
-  .fail (function (jqXHR, textStatus) {    alert( "Request failed: " + textStatus );        });
+  .fail (function (jqXHR, textStatus, errorThrown) {    alert( "Request failed: " + textStatus + " " +  errorThrown);        });
 })
 </script> 
 
