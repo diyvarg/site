@@ -36,16 +36,18 @@ alert(1);
 
 $('#submit-form').on('click', function(e) {
   alert(2);
-
+  try {
   e.preventDefault();
   var jqxhr = $.ajax({
     url: url,
     method: "GET",
     dataType: "json",
     data: $form.serializeObject()
-  })
-  .done(function () { alert("done"); })
-  .fail (function (jqXHR, textStatus) {    alert( "Request failed: " + textStatus );        });
+  });
+  } catch(e) { alert("error: " + e); } 
+  
+  jqxhr.done(function () { alert("done"); })
+       .fail (function (jqXHR, textStatus) {    alert( "Request failed: " + textStatus );        });
 })
 </script> 
 
