@@ -34,7 +34,7 @@ posts
 alert(1);
 
 $('#submit-form').on('click', function(e) {
-  alert(2 + " data: " + $form.serializeObject());
+  alert(2 + " data: " + JSON.stringify($form.serializeObject()));
   try {
   e.preventDefault();
   var jqxhr = $.ajax({
