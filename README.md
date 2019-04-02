@@ -18,6 +18,7 @@ posts
 - markdown: {{ site.markdown }}
 - highlighter: {{ site.highlighter }}
 - source: {{ site.source }}
+- destination:  {{ site.destination }}         
 
 <hr/>
 
