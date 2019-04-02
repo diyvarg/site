@@ -23,6 +23,9 @@ posts
 <hr/>
 
 
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNZCQGydEXuoUnpyIWxsFQtD-Z5ftOzVaTD90Gv-WbkmqIyg/viewform?embedded=true" width="640" height="1167" frameborder="0" marginheight="0" marginwidth="0">Загрузка...</iframe>
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/diyvarg/site/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
