@@ -50,7 +50,7 @@ end
   1. Создать папку, например, Z:\Projects\IE View Source
   2. Создать в ней файл: ViewSource.htm со следующим кодом:  
   
-  ```html
+    ```html
   <html>
     <body>
       <script language="JavaScript" defer>
@@ -71,7 +71,7 @@ end
       </script>
     </body>
   </html>
-  ```
+    ```
   3. Запустить regedit; в ветке  HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\MenuExt создать Key с именем 
 View Source. В Default записать: Z:\Projects\IE View Source\ViewSource.htm
   4. Открыть IE, в контекстном меню выбрать View Source.
