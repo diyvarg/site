@@ -72,6 +72,7 @@ end
     </body>
   </html>
   ```
+    
   {:start="3"}
   3. Запустить regedit; в ветке  HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\MenuExt создать Key с именем 
 View Source. В Default записать: Z:\Projects\IE View Source\ViewSource.htm
