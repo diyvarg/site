@@ -48,8 +48,7 @@ end
 Решение:
 
   1. Создать папку, например, Z:\Projects\IE View Source
-  2. Создать в ней файл: ViewSource.htm со следующим кодом:    
-  
+  2. Создать в ней файл: ViewSource.htm со следующим кодом:      
   ```html
   <html>
     <body>
