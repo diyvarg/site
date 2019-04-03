@@ -45,7 +45,7 @@ posts
 //alert(1);        
 
 $('#submit-form').on('click', function(e) {
-  alert(2 + " data: " + JSON.stringify($form));
+  alert(2 + " data: " + $form.serialize());
   try {
   e.preventDefault();
   var jqxhr = $.ajax({
